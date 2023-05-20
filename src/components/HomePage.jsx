@@ -9,7 +9,11 @@ import Mapa from "../assets/mapa.png";
 export default function HomePage() {
   return (
     <>
-      <div className="bg-white pt-5 h-fit lg:h-[60vh]">
+      <div
+        className="bg-white pt-5 h-fit lg:h-[60vh]"
+        role="banner"
+        aria-label="Laboratorio Nacional del TECNM Para Impulsar la I+D+I en Ingeniería"
+      >
         <h1 className="text-4xl text-center font-bold">
           Laboratorio Nacional del TECNM Para Impulsar la I+D+I en Ingeniería
         </h1>
@@ -19,17 +23,25 @@ export default function HomePage() {
             src={LogoTec}
             alt="Logo del Tec"
             title="Logo del Tec"
+            role="img"
+            aria-label="Logo del Tec"
           />
           <img
             className="h-72"
             src={Mapa}
             alt="Mapa del Tec"
             title="Mapa del Tec"
+            role="img"
+            aria-label="Mapa del Tec"
           />
         </div>
       </div>
 
-      <div className="flex flex-col items-center gap-5">
+      <div
+        className="flex flex-col items-center gap-5"
+        role="region"
+        aria-label="Acerca de nosotros"
+      >
         <h2 className="text-4xl font-bold text-center">Acerca de nosotros</h2>
         <div className="flex gap-10 justify-center p-10">
           <div className="flex flex-col gap-5">
@@ -47,8 +59,7 @@ export default function HomePage() {
               actuales. Nuestro laboratorio se enfoca en áreas como la energía
               renovable, la inteligencia artificial, la robótica, la
               nanotecnología y muchas otras disciplinas de vanguardia. <br />{" "}
-              <br />
-              Estamos comprometidos con la excelencia científica y la
+              <br /> Estamos comprometidos con la excelencia científica y la
               transferencia de conocimiento, promoviendo la formación de talento
               y la colaboración tanto a nivel nacional como internacional. Te
               invitamos a explorar nuestro sitio web, descubrir nuestros
@@ -61,7 +72,7 @@ export default function HomePage() {
             </p>
             <a
               href="#"
-              className="rounded-md w-fit place-self-start text-xl p-2 text-white bg-blue-950 "
+              className="rounded-md w-fit place-self-start text-xl p-2 text-white bg-blue-950"
             >
               ¡Únete!
             </a>
@@ -72,24 +83,32 @@ export default function HomePage() {
               src={Grid1}
               alt="Imagen del Tec 1"
               title="Imagen del Tec 1"
+              role="img"
+              aria-label="Imagen del Tec 1"
             />
             <img
               className="h-72 rounded-md"
               src={Grid2}
               alt="Imagen del Tec 2"
               title="Imagen del Tec 2"
+              role="img"
+              aria-label="Imagen del Tec 2"
             />
             <img
               className="h-72 rounded-md"
               src={Grid3}
               alt="Imagen del Tec 3"
               title="Imagen del Tec 3"
+              role="img"
+              aria-label="Imagen del Tec 3"
             />
             <img
               className="h-72 rounded-md"
               src={Grid4}
               alt="Imagen del Tec 4"
               title="Imagen del Tec 4"
+              role="img"
+              aria-label="Imagen del Tec 4"
             />
           </div>
         </div>
