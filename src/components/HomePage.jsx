@@ -30,7 +30,7 @@ export default function HomePage() {
       </div>
 
       <div className="flex flex-col items-center gap-5">
-        <h1 className="text-4xl font-bold text-center">Acerca de nosotros</h1>
+        <h2 className="text-4xl font-bold text-center">Acerca de nosotros</h2>
         <div className="flex gap-10 justify-center p-10">
           <div className="flex flex-col gap-5">
             <p className="text-justify max-w-5xl text-xl">
